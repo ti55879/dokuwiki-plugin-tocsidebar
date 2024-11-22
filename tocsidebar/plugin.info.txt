@@ -1,7 +1,0 @@
-base   tocsidebar
-author Tim Droste
-email  Tim.droste03@gmail.com
-date   2024-11-19
-name   tocsidebar plugin
-desc   Display the TOC in Sidebar or Inline of anypage
-url    https://github.com/ti55879/dokuwiki-plugin-tocsidebar/
