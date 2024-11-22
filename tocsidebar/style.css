@@ -1,0 +1,76 @@
+.tocsel_title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Schriftfamilie */
+    font-size: 19px; /* Schriftgröße */
+    font-weight: 500; /* Halb-fett wie im Screenshot */
+    color: #333333; /* Farbe für dunkleren Text */
+    margin: 20px 0; /* Abstand oben und unten */
+    line-height: 1.2; /* Zeilenhöhe für bessere Lesbarkeit */
+    border-bottom: 1px solid #e5e5e5; /* Dünne Linie unter dem Text */
+    padding-bottom: 10px; /* Mehr Abstand zwischen Text und Linie */
+    display: block; /* Stellt sicher, dass es über die volle Breite geht */
+    width: 100%; /* Linie über die gesamte Breite */
+    box-sizing: border-box; /* Bezieht Padding und Ränder in die Breite mit ein */
+}
+
+.tocsel_right div#setctoc_out {
+    max-height: none;
+    overflow: visible;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.tocsel_right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tocsel_right li {
+    border: 1px dashed #337AB7;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    position: relative;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.tocsel_right li.hover-active {
+    border: none !important;
+    background-color: #eaeaea !important;
+    transition: background-color 0.3s ease, border 0.3s ease; /* Sanfte Animation */
+}
+
+
+
+.tocsel_right li li:hover {
+    background-color: inherit;
+    border: 1px dashed #337AB7;
+}
+
+.tocsel_right li li li {
+    background-color: #ffffff;
+    border: 1px dashed #337AB7;
+}
+
+.tocsel_right li a {
+    color: #337AB7;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+}
+
+.tocsel_right li a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.tocsel_right #selectoc_btn,
+.tocsel_right #selectoc_id,
+.tocsel_right li.tocsel_up {
+    display: none !important;
+}
